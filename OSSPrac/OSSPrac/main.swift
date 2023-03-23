@@ -7,5 +7,14 @@
 
 import Foundation
 
-print("Hello, World!")
+print("이름을 입력해주세요",terminator:": ")
+let name = readLine()!
+print("학번을 입력해주세요",terminator:": ")
+let id = readLine()!
+print("학과를 입력해주세요",terminator:": ")
+let major = readLine()!
 
+print("\n<출력>")
+print("이름: \(name)")
+print("학번: \(id)")
+print("학과: \(major)")
